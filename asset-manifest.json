@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dota2stats/static/css/main.073c9b0a.css",
+    "main.js": "/dota2stats/static/js/main.5d67bdc7.js",
+    "static/js/787.145dbcc6.chunk.js": "/dota2stats/static/js/787.145dbcc6.chunk.js",
+    "static/media/logo.svg": "/dota2stats/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/dota2stats/index.html",
+    "main.073c9b0a.css.map": "/dota2stats/static/css/main.073c9b0a.css.map",
+    "main.5d67bdc7.js.map": "/dota2stats/static/js/main.5d67bdc7.js.map",
+    "787.145dbcc6.chunk.js.map": "/dota2stats/static/js/787.145dbcc6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.5d67bdc7.js"
+  ]
+}
