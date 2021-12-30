@@ -1,6 +1,175 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="736cd3b6-dc6d-43da-bc6b-00ab3ecd7986" name="Changes" comment="latest">
+      <change afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.prettierrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/babel.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/getHttpsConfig.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/babelTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/cssTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/jest/fileTransform.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/modules.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/paths.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpack/persistentCache/createEnvironmentHash.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/scripts/test.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/MainScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Screens/PlayerScreen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/111.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg1_1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/bg_balanar.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/cancer.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/cancer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/heroes_bg.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/maxresdefault.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/paw.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/img/wp2532705.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/FooterPattern/FooterPatern.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Screen/Screen.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/constatnts.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-grid.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap-reboot.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/main.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/main.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/player/player.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/player/player.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/player/player.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Footer/Footer.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Games/gamesSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Games/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Graph/Graph.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Heroes/heroesSlice.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Heroes/types.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/features/Table/Table.tsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/utils/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/core/redux/index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/core/redux/index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/Header/Header.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/Header/Header.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/features/TitleSVG/TitleSVG.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/features/TitleSVG/TitleSVG.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/react-app-env.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/src/react-app-env.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="ProjectId" id="2304C3HISPtKZgIDGaF7ybbaqrv" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="G:/react native" />
+    <property name="NEW_TOOLWINDOW_STRIPE_DEFAULTS" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/assets" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="prettierjs.PrettierConfiguration.Package" value="C:\Users\Alex\Desktop\rn\dota2stats\node_modules\prettier" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+    <property name="ts.external.directory.path" value="C:\Users\Alex\Desktop\rn\dota2stats\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\rn\dota2stats\assets" />
+      <recent name="C:\Users\Alex\Desktop\rn\dota2stats\src" />
+      <recent name="C:\Users\Alex\Desktop\rn\dota2stats" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Alex\Desktop\rn\dota2stats\src" />
+    </key>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="736cd3b6-dc6d-43da-bc6b-00ab3ecd7986" name="Changes" comment="" />
+      <created>1640857542752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1640857542752</updated>
+      <workItem from="1640857546830" duration="16157000" />
+    </task>
+    <task id="LOCAL-00001" summary="start">
+      <created>1640857994807</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1640857994807</updated>
+    </task>
+    <task id="LOCAL-00002" summary="latest">
+      <created>1640860098073</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1640860098073</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="start" />
+    <MESSAGE value="latest" />
+    <option name="LAST_COMMIT_MESSAGE" value="latest" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>

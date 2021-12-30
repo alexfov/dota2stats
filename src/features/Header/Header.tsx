@@ -1,6 +1,9 @@
-import React from "react";
+import React from 'react';
+import cancer from '../../assets/img/cancer.svg';
+import { MAIN_ROUTE, players, playersArr } from '_app/constatnts';
+import { Link } from 'react-router-dom';
 
-export function Header () {
+export function Header() {
   return (
     <header className="page-header">
       <div className="container">
@@ -8,23 +11,28 @@ export function Header () {
           <div className="col-11">
             <nav className="main-nav">
               <ul className="main-menu nav">
-                <li className="main-menu__item main-menu__item_bold"><a href="https://www.dotabuff.com/"
-                                                                        className="main-menu__link">DOTABUFF</a></li>
-                <li className="main-menu__item"><a href="neeeeerf.html" className="main-menu__link">Neeeeeef</a></li>
-                <li className="main-menu__item"><a href="johngalt.html" className="main-menu__link">JohnGalt</a></li>
-                <li className="main-menu__item"><a href="alexfov.html" className="main-menu__link">AlexFov</a></li>
-                <li className="main-menu__item"><a href="bloodterror.html" className="main-menu__link">BloOdTerrOr</a>
+                <li className="main-menu__item main-menu__item_bold">
+                  <a href="https://www.dotabuff.com/" className="main-menu__link">
+                    DOTABUFF
+                  </a>
                 </li>
-                <li className="main-menu__item"><a href="megabit.html" className="main-menu__link">Megabit</a></li>
-                <li className="main-menu__item"><a href="doctar.html" className="main-menu__link">Doctor</a></li>
+                {playersArr.map(([name, id]) => (
+                  <li className="main-menu__item" key={id}>
+                    <Link to={`/${MAIN_ROUTE}/${name.toLowerCase()}`} className="main-menu__link">
+                      {name}
+                    </Link>
+                  </li>
+                ))}
               </ul>
             </nav>
           </div>
           <div className="col-1">
-            <a href="index.html"><img src="img/cancer.svg" alt="logo" className="page-header__logo" /></a>
+            <a href={`/${MAIN_ROUTE}`}>
+              <img src={cancer} alt="logo" className="page-header__logo" />
+            </a>
           </div>
         </div>
       </div>
     </header>
-  )
+  );
 }
